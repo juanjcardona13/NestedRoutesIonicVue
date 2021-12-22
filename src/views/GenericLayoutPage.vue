@@ -1,12 +1,12 @@
 <template>
-  <ion-page id="WizardLayout">
+  <ion-page>
     <ion-header class="ion-no-border">
       <ion-toolbar>
         <ion-buttons slot="start">
           <ion-back-button color="dark" default-href="/tabs/tab1" @click="() => $router.push('/tabs/tab1')" text="" :icon="arrowBackOutline">
           </ion-back-button>
         </ion-buttons>
-        <ion-title>{{tituloHeader}}</ion-title>
+        <ion-title>GenericLayout</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
@@ -38,7 +38,6 @@ export default defineComponent({
   },
   data() {
     return {
-      tituloHeader: "CREAR"
     }
   },
   components: {

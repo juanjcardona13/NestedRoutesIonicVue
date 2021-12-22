@@ -2,7 +2,7 @@
   <div id="container">
     <strong>{{ name }}</strong>
     <ion-button @click="() => $router.push('/nucleo/ver/nuevo')">
-      Click me
+      Go page view
     </ion-button>
   </div>
 </template>

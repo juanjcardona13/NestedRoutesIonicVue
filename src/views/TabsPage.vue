@@ -10,7 +10,7 @@
           
         <ion-tab-button tab="tab2" href="/nucleo/crearActualizar/crear/nuevo">
           <ion-icon :icon="ellipse" />
-          <ion-label>Tab 2</ion-label>
+          <ion-label>Go page create</ion-label>
         </ion-tab-button>
         
         <ion-tab-button tab="tab3" href="/tabs/tab3">
