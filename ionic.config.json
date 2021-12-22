@@ -1,0 +1,7 @@
+{
+  "name": "nestedRoute",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
